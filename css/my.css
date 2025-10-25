@@ -65,10 +65,13 @@ section, header, footer {
 /* --- Dark Mode Fixes for New Sections --- */
 .dark-mode .gallery,
 .dark-mode .testimonials-section,
-.dark-mode .featured-section,
 .dark-mode .overview-section {
   background-color: #121212 !important;
   color: #ffc107 !important;
+}
+.dark-mode .featured-section{
+  background-color: #121212 !important;
+  color: #0a0a0a !important;
 }
 
 .dark-mode .gallery img {
