@@ -1,305 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Muhammad Hamza — AI Engineer, Deep Learning & 3D Vision Researcher. Portfolio showcasing AI, Python, and computer vision projects."
-    />
-    <meta name="author" content="Muhammad Hamza" />
-    <meta
-      name="keywords"
-      content="Muhammad Hamza, AI Engineer, Deep Learning, Python Developer, Portfolio, 3D Vision, Computer Vision, Machine Learning"
-    />
-    <title>Muhammad Hamza — AI Engineer & Researcher</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
+<head>
+  <title>Muhammad Hamza - Portfolio</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muhammad Hamza | Python Developer & Research Author Portfolio">
+  <meta name="author" content="Muhammad Hamza">
+  <link rel="shortcut icon" href="favicon.png">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="./images/icon-python.png" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="./css/carousel.css">
+  <link rel="stylesheet" href="./css/owl.css">
+  <link rel="stylesheet" href="./css/my.css">
 
-    <!-- Boxicons -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-  </head>
+  <!-- FontAwesome -->
+  <script defer src="./js/all.js"></script>
 
-  <body>
-    <!-- ======== HEADER ======== -->
-    <header class="header">
-      <a href="#" class="logo">Muhammad <span>Hamza</span></a>
-      <div class="bx bx-menu" id="menu-icon"></div>
-      <ul class="navlist">
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Projects</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <a href="#contact" class="top-btn">Hire Me</a>
-    </header>
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="./css/theme.css">
 
-    <!-- ======== HOME ======== -->
-    <section class="home" id="home">
-      <div class="home-text">
-        <h3>Hello, I'm</h3>
-        <h1>Muhammad Hamza</h1>
-        <h5>
-          AI Engineer & Deep Learning Researcher
-          <span>— from Pakistan</span>
-        </h5>
-        <p>
-          Passionate about artificial intelligence, computer vision, and
-          advanced 3D modeling systems. I love building intelligent solutions
-          that connect innovation with real-world impact.
-        </p>
-        <div class="social">
-          <a href="https://github.com/muhammadhamza" target="_blank"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a href="https://linkedin.com/in/muhammadhamza" target="_blank"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://twitter.com/muhammadhamza" target="_blank"
-            ><i class="bx bxl-twitter"></i
-          ></a>
-          <a href="mailto:muhammadhamza@gmail.com"
-            ><i class="bx bxs-envelope"></i
-          ></a>
-        </div>
-        <a href="#about" class="btn">About Me</a>
-      </div>
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #f5f5f5;
+    }
 
-      <div class="home-img">
-        <img src="./images/Hamza Professional Pic.jpg" alt="Muhammad Hamza" />
-      </div>
-    </section>
+    a,
+    .btn-primary {
+      background: linear-gradient(135deg, #d4af37, #b8860b);
+      border: none;
+    }
 
-    <!-- ======== ABOUT ======== -->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="./images/Hamza Professional Pic.jpg" alt="Muhammad Hamza" />
-      </div>
-      <div class="about-text">
-        <h2>About Me</h2>
-        <h4>AI Engineer & Full Stack Developer</h4>
-        <p>
-          I'm Muhammad Hamza, a passionate developer and researcher focused on
-          deep learning, 3D model analysis, and computer vision. I specialize in
-          crafting intelligent systems and optimizing AI models for real-world
-          applications. From research to deployment, I enjoy turning complex
-          problems into elegant, efficient code.
-        </p>
-        <div class="about-grid">
-          <div class="about-box">
-            <h3>Experience</h3>
-            <span>3+ Years in AI & Development</span>
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #b8860b, #d4af37);
+    }
+
+    h1, h2, h3, h4, h5 {
+      color: #ffd700;
+    }
+
+    .header {
+      background: #000;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: #ffd700;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+      color: #ffffff;
+    }
+
+    .theme-link {
+      color: #ffd700;
+    }
+
+    .theme-bg-light {
+      background-color: #1a1a1a !important;
+    }
+
+    footer {
+      background: #111;
+      color: #ffd700;
+    }
+
+    .social-list a {
+      color: #ffd700;
+    }
+
+    .social-list a:hover {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header text-center">
+    <div class="force-overflow">
+      <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Muhammad Hamza</a></h1>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navigation" class="collapse navbar-collapse flex-column">
+          <div class="profile-section pt-3 pt-lg-0">
+            <img class="profile-image mb-3 rounded-circle mx-auto" src="./Images/Hamza Professional Pic.jpg"
+              alt="Muhammad Hamza">
+            <div class="bio mb-3">Hi, I am Muhammad Hamza — Python & Django Developer | Research Author (Elsevier). Welcome to my
+              personal portfolio!</div>
+            <ul class="social-list list-inline py-2 mx-auto">
+              <li class="list-inline-item"><a href="https://linkedin.com/in/muhammad-hamza" target="_blank"><i
+                    class="fab fa-linkedin-in fa-fw"></i></a></li>
+              <li class="list-inline-item"><a href="https://github.com/muhammadhamza" target="_blank"><i
+                    class="fab fa-github-alt fa-fw"></i></a></li>
+              <li class="list-inline-item"><a href="mailto:muhammadhamza@gmail.com"><i
+                    class="fas fa-envelope fa-fw"></i></a></li>
+            </ul>
+            <hr>
           </div>
-          <div class="about-box">
-            <h3>Projects</h3>
-            <span>20+ Completed Projects</span>
-          </div>
-          <div class="about-box">
-            <h3>Clients</h3>
-            <span>10+ Global Collaborations</span>
-          </div>
-        </div>
-        <a href="#portfolio" class="btn">View Projects</a>
-      </div>
-    </section>
 
-    <!-- ======== SKILLS ======== -->
-    <section class="skills" id="skills">
-      <div class="center">
-        <h2>My Skills</h2>
-        <p>Technologies & tools I specialize in</p>
-      </div>
+          <ul class="navbar-nav flex-column text-left">
+            <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html"><i
+                  class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html"><i
+                  class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a></li>
+          </ul>
+          <div class="my-2">
+            <a class="btn btn-primary" href="contact.html"><i class="fas fa-paper-plane mr-2"></i>Hire Me</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-      <div class="skills-content">
-        <div class="skills-box">
-          <img src="./images/icon-python.png" alt="Python" />
-          <h3>Python</h3>
-        </div>
-        <div class="skills-box">
-          <img src="./images/icon-tensorflow.png" alt="TensorFlow" />
-          <h3>TensorFlow / PyTorch</h3>
-        </div>
-        <div class="skills-box">
-          <img src="./images/icon-html.png" alt="HTML" />
-          <h3>HTML / CSS / JS</h3>
-        </div>
-        <div class="skills-box">
-          <img src="./images/icon-react.png" alt="React" />
-          <h3>React.js / Next.js</h3>
-        </div>
-        <div class="skills-box">
-          <img src="./images/icon-ml.png" alt="Machine Learning" />
-          <h3>Machine Learning</h3>
-        </div>
-        <div class="skills-box">
-          <img src="./images/icon-3d.png" alt="3D Vision" />
-          <h3>3D Vision / Computer Vision</h3>
+  <div class="main-wrapper">
+    <section class="about-me-section p-3 p-lg-5 theme-bg-light">
+      <div class="container">
+        <div class="profile-teaser media flex-column flex-lg-row">
+          <div class="media-body">
+            <h2 class="name font-weight-bold mb-1">Muhammad Hamza</h2>
+            <div class="tagline mb-3">Python & Django Developer | Research Author (Elsevier)</div>
+            <div class="bio mb-4">
+              I’m a Python developer specializing in AI, deep learning, and web development using Django. My experience includes medical image analysis, automation, and 3D model processing. I’m passionate about creating efficient solutions that merge innovation with real-world applications.
+              <br><br>
+              Explore my <a class="theme-link" href="portfolio.html">projects</a> and <a class="theme-link"
+                href="resume.html">resume</a> to learn more.
+            </div>
+            <div class="mb-4">
+              <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i
+                  class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio</a>
+              <a class="btn btn-secondary mb-3" href="resume.html"><i
+                  class="fas fa-file-alt mr-2"></i>View Resume</a>
+            </div>
+          </div>
+          <img class="profile-image mb-3 mb-lg-0 ml-lg-5" src="./Images/Hamza Professional Pic.jpg" alt="">
         </div>
       </div>
     </section>
 
-    <!-- ======== SERVICES ======== -->
-    <section class="services" id="services">
-      <div class="center">
-        <h2>My Services</h2>
-        <p>What I can do for you</p>
-      </div>
-
-      <div class="service-content">
+    <section class="overview-section p-3 p-lg-5">
+      <div class="container">
+        <h2 class="section-title font-weight-bold mb-3">Core Skills</h2>
+        <div class="section-intro mb-5">
+          My main technical areas of expertise include machine learning, web development, and AI research.
+        </div>
         <div class="row">
-          <i class="bx bx-brain"></i>
-          <h3>AI & Deep Learning</h3>
-          <p>
-            Building intelligent neural models for image classification,
-            segmentation, and 3D reconstruction tasks.
-          </p>
+          <div class="item col-6 col-lg-3">
+            <div class="item-inner text-center">
+              <i class="fab fa-python fa-3x"></i>
+              <h3 class="item-title mt-3">Python</h3>
+              <p>Advanced programming with libraries like NumPy, OpenCV, TensorFlow, and PyTorch.</p>
+            </div>
+          </div>
+          <div class="item col-6 col-lg-3">
+            <div class="item-inner text-center">
+              <i class="fas fa-brain fa-3x"></i>
+              <h3 class="item-title mt-3">Deep Learning</h3>
+              <p>Experience in CNNs, medical image segmentation, and model ensembling for histopathology tasks.</p>
+            </div>
+          </div>
+          <div class="item col-6 col-lg-3">
+            <div class="item-inner text-center">
+              <i class="fab fa-django fa-3x"></i>
+              <h3 class="item-title mt-3">Django</h3>
+              <p>Developing dynamic web applications and REST APIs with authentication and AI integration.</p>
+            </div>
+          </div>
+          <div class="item col-6 col-lg-3">
+            <div class="item-inner text-center">
+              <i class="fas fa-database fa-3x"></i>
+              <h3 class="item-title mt-3">Data Science</h3>
+              <p>Proficient in feature engineering, model tuning, and dataset visualization using Pandas & Matplotlib.</p>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
 
+    <section class="featured-section p-3 p-lg-5">
+      <div class="container">
+        <h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
         <div class="row">
-          <i class="bx bx-code-alt"></i>
-          <h3>Full Stack Development</h3>
-          <p>
-            Creating dynamic, responsive web applications using modern
-            frameworks like React and Node.js.
-          </p>
-        </div>
+          <div class="col-md-6 mb-5">
+            <div class="card project-card">
+              <div class="card-body">
+                <h5 class="card-title">3D Medical Image Segmentation</h5>
+                <p class="card-text">Deep learning-based segmentation using ensemble CNN architectures for volumetric scans.</p>
+              </div>
+            </div>
+          </div>
 
-        <div class="row">
-          <i class="bx bx-cube-alt"></i>
-          <h3>3D Vision & Modeling</h3>
-          <p>
-            Working with medical and 3D datasets for visualization, segmentation
-            and intelligent shape analysis.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======== PORTFOLIO ======== -->
-    <section class="portfolio" id="portfolio">
-      <div class="center">
-        <h2>Recent Projects</h2>
-        <p>Some of my highlighted works</p>
-      </div>
-
-      <div class="portfolio-content">
-        <div class="portfolio-box">
-          <img src="./images/project-ai1.jpg" alt="AI Classification" />
-          <div class="overlay">
-            <h3>Histopathological Image Classification</h3>
-            <p>
-              Deep learning ensemble model for accurate disease detection in
-              medical images.
-            </p>
+          <div class="col-md-6 mb-5">
+            <div class="card project-card">
+              <div class="card-body">
+                <h5 class="card-title">AI-Powered Django Web App</h5>
+                <p class="card-text">An intelligent web application integrating ML model predictions into Django views.</p>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="portfolio-box">
-          <img src="./images/project-3d.jpg" alt="3D Vision" />
-          <div class="overlay">
-            <h3>3D Model Reconstruction</h3>
-            <p>
-              End-to-end neural network for high-resolution 3D reconstruction
-              from CT/MRI data.
-            </p>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="./images/project-web.jpg" alt="Web App" />
-          <div class="overlay">
-            <h3>AI-Powered Web Dashboard</h3>
-            <p>
-              Real-time AI data visualization dashboard built using React and
-              Flask.
-            </p>
-          </div>
+        <div class="text-center py-3">
+          <a href="portfolio.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>View Full Portfolio</a>
         </div>
       </div>
     </section>
 
-    <!-- ======== TESTIMONIALS ======== -->
-    <section class="testimonials" id="testimonials">
-      <div class="center">
-        <h2>Testimonials</h2>
-        <p>What people say about my work</p>
-      </div>
-      <div class="testimonial-content">
-        <div class="testimonial-box">
-          <p>
-            “Hamza’s AI expertise and professionalism are outstanding. He
-            delivered an efficient computer vision solution ahead of schedule.”
-          </p>
-          <h4>Dr. Ayesha Khan</h4>
-          <span>Research Supervisor, AI Lab</span>
-        </div>
-        <div class="testimonial-box">
-          <p>
-            “Highly skilled and dedicated developer! Our web app is faster,
-            cleaner, and fully optimized thanks to him.”
-          </p>
-          <h4>John Smith</h4>
-          <span>Client — USA</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======== CONTACT ======== -->
-    <section class="contact" id="contact">
-      <div class="center">
-        <h2>Contact Me</h2>
-        <p>Let's build something intelligent together</p>
-      </div>
-
-      <div class="contact-form">
-        <form action="https://formspree.io/f/yourFormID" method="POST">
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email Address"
-            required
-          />
-          <textarea
-            name="message"
-            cols="30"
-            rows="10"
-            placeholder="Your Message"
-            required
-          ></textarea>
-          <input type="submit" value="Send Message" class="btn" />
-        </form>
-      </div>
-    </section>
-
-    <!-- ======== FOOTER ======== -->
-    <footer>
-      <div class="copyright">
-        <p>
-          © 2025 Muhammad Hamza. All rights reserved. | Designed by Muhammad
-          Hamza
-        </p>
-      </div>
+    <footer class="footer text-center py-4">
+      <small class="copyright">© 2025 Muhammad Hamza — Python Developer | Research Author</small>
     </footer>
+  </div>
 
-    <!-- JS -->
-    <script src="assets/js/script.js"></script>
-  </body>
+  <!-- Scripts -->
+  <script src="./js/jquery.js"></script>
+  <script src="./js/proper.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/m.js"></script>
+  <script src="./js/testimo.js"></script>
+  <script src="./js/cookie.js"></script>
+  <script src="./js/dark.js"></script>
+</body>
 </html>
