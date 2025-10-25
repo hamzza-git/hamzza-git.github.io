@@ -13,3 +13,34 @@ a.resume-link {
     width: 160px;
     height: 170px;
 }
+/* --- Prevent horizontal overflow globally --- */
+html, body {
+  overflow-x: hidden; /* hides accidental horizontal overflow */
+  width: 100%;
+}
+
+/* Force-overflow guard (Ali's wrapper) */
+.force-overflow {
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Ensure rows and main-wrapper don't expand past viewport */
+.main-wrapper, .container, .row {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Prevent images from stretching past their container */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Optional: ensure sections don't use 100vw (which includes scrollbar) */
+section, header, footer {
+  width: 100%;
+  box-sizing: border-box;
+}
