@@ -62,3 +62,32 @@ section, header, footer {
       transform: scale(1.05); 
       box-shadow: 0px 6px 20px rgba(0,0,0,0.3); 
     }
+/* --- Dark Mode Fixes for New Sections --- */
+.dark-mode .gallery,
+.dark-mode .testimonials-section,
+.dark-mode .featured-section,
+.dark-mode .overview-section {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .gallery img {
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .quote-holder,
+.dark-mode .project-card {
+  background-color: #1e1e1e !important;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #e0e0e0;
+}
+
+.dark-mode .section-title {
+  color: #fff !important;
+}
+
+.dark-mode .item-desc,
+.dark-mode .bio,
+.dark-mode .quote-content {
+  color: #cfcfcf !important;
+}
