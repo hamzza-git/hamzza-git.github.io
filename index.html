@@ -2,188 +2,181 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Muhammad Hamza | Portfolio & Services</title>
-  <meta name="description" content="Muhammad Hamza from Pattoki offering AI, machine learning, data science and web development services. View portfolio and contact for collaboration.">
+  <title>Muhammad Hamza | AI & Web Services Portfolio</title>
+  <meta name="description" content="Muhammad Hamza from Pattoki – expert in AI, Machine Learning, Data Science & Web Development. View services, projects, GitHub portfolio and hire me.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Open Graph for social preview -->
-  <meta property="og:title" content="Muhammad Hamza | Portfolio & Services">
-  <meta property="og:description" content="Explore the professional portfolio of Muhammad Hamza. AI, ML, web dev services.">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Muhammad Hamza | AI & Web Services">
+  <meta property="og:description" content="Explore Muhammad Hamza’s portfolio of services, GitHub projects and freelance work.">
   <meta property="og:image" content="https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki2.jpg">
   <meta property="og:url" content="https://hamza-code-hub.github.io/">
   <meta name="twitter:card" content="summary_large_image">
 
-  <!-- Schema Markup for Google -->
+  <!-- Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Muhammad Hamza",
-    "description": "Professional from Pattoki offering AI, machine learning, data science and web development services.",
+    "description": "AI, Machine Learning and Web Development professional from Pattoki.",
     "image": [
       "https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki2.jpg",
-      "https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki1.jpg",
-      "https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki13.jpg",
-      "https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki11.jpg",
-      "https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki9.jpg"
+      "https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki1.jpg"
     ],
     "jobTitle": "AI & Web Services Professional",
     "url": "https://hamza-code-hub.github.io/",
     "sameAs": [
       "https://www.linkedin.com/in/hamzzaz",
-      "https://www.facebook.com/people/Muhammad-Hamza/61580252272534/",
-      "https://www.instagram.com/hmza_mahr/",
-      "https://www.kaggle.com/muhammadhamzamaher",
-      "https://github.com/Hamza-code-hub"
+      "https://github.com/Hamza-code-hub",
+      "https://www.instagram.com/hmza_mahr/"
     ]
   }
   </script>
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
   <style>
     body {
       font-family: 'Poppins', sans-serif;
       margin: 0; padding: 0;
-      background: #f9fbfd; color: #333;
-      line-height: 1.6;
+      background: #f9fbfd; color: #333; line-height:1.6;
     }
     header.hero {
-      background: linear-gradient(120deg, #0077b6, #0096c7);
-      color: white; text-align: center; padding: 80px 20px;
+      background: linear-gradient(120deg,#0077b6,#0096c7);
+      color:white; text-align:center; padding:100px 20px;
     }
-    header.hero .intro img {
-      width: 160px; border-radius: 50%;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-      margin-bottom: 20px;
+    header.hero img {
+      width:160px; border-radius:50%; box-shadow:0 5px 20px rgba(0,0,0,0.3); margin-bottom:20px;
     }
-    header.hero h1 {
-      font-size: 48px; margin-bottom: 10px;
-    }
-    header.hero p.subtitle {
-      font-size: 20px; opacity: .9;
-    }
+    header.hero h1 { font-size:48px; margin:0; }
+    header.hero p.subtitle { font-size:22px; opacity:.9; }
     header.hero a.btn-primary {
-      display: inline-block; margin-top: 20px;
-      background: #fff; color: #0077b6;
-      padding: 12px 24px; border-radius: 30px;
-      text-decoration: none; font-weight:600;
+      display:inline-block; margin-top:20px; background:#fff; color:#0077b6; padding:12px 24px; border-radius:30px; font-weight:600; text-decoration:none;
     }
     section {
-      max-width: 1100px; margin: auto;
-      padding: 60px 20px; text-align: center;
+      max-width:1100px; margin:auto; padding:60px 20px; text-align:center;
     }
-    section h2 {
-      font-size: 32px; margin-bottom: 20px;
-      color: #0077b6;
-    }
+    section h2 { font-size:32px; margin-bottom:30px; color:#0077b6; }
     .services-grid {
-      display:flex; flex-wrap:wrap; justify-content:center; gap:20px;
+      display:flex; flex-wrap:wrap; justify-content:center; gap:30px;
     }
     .service-card {
-      background: white; border-radius:12px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-      padding: 20px; width: 280px;
+      background:#fff; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); padding:30px; width:300px;
     }
-    .gallery {
-      display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:30px;
+    .service-card img.icon {
+      width:60px; margin-bottom:15px;
     }
-    .gallery img {
-      width:300px; border-radius:12px;
-      box-shadow:0 4px 15px rgba(0,0,0,0.2);
-      transition: transform 0.3s, box-shadow 0.3s;
+    .projects-grid {
+      display:flex; flex-wrap:wrap; justify-content:center; gap:20px;
     }
-    .gallery img:hover {
-      transform: scale(1.05);
-      box-shadow:0 6px 20px rgba(0,0,0,0.3);
+    .project-card {
+      background:#fff; border-radius:12px; overflow:hidden; width:320px; box-shadow:0 4px 15px rgba(0,0,0,0.1); text-align:left;
+    }
+    .project-card img {
+      width:100%; display:block;
+    }
+    .project-card .content {
+      padding:20px;
+    }
+    .project-card .content h3 { margin-top:0; font-size:22px; color:#0077b6; }
+    .project-card .content p { font-size:16px; margin:10px 0; }
+    .project-card .content a {
+      color:#0096c7; text-decoration:none; font-weight:500;
     }
     footer {
       background:#222; color:#eee; text-align:center; padding:30px 20px;
     }
     footer p { margin:10px 0; }
-    footer a {
-      color:#00aced; margin:0 10px; text-decoration:none; font-weight:500;
-    }
+    footer a { color:#00aced; margin:0 10px; text-decoration:none; }
     footer a:hover { text-decoration:underline; }
-    /* Contact form / link styling */
-    #contact p {
-      margin-top: 10px;
-    }
-    #contact a.btn-contact {
-      display:inline-block; margin-top:15px;
-      background:#0077b6; color:#fff;
-      padding:10px 20px; border-radius:30px;
-      text-decoration:none; font-weight:600;
+    @media(max-width:768px) {
+      .services-grid, .projects-grid {
+        flex-direction:column;
+      }
     }
   </style>
 
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/favicon.ico">
-  <link rel="apple-touch-icon" href="images/favicon.ico">
-  <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_TOKEN" />
+  <meta name="google-site-verification" content="YOUR_VERIFICATION_TOKEN" />
 </head>
 <body>
 
-  <!-- Hero / Intro -->
   <header class="hero">
-    <div class="intro">
-      <img src="images/Muhammad_Hamza_from_pattoki2.jpg" alt="Muhammad Hamza portrait">
-      <h1>Muhammad Hamza</h1>
-      <p class="subtitle">AI • Machine Learning • Web Development</p>
-      <a class="btn-primary" href="#contact">Hire Me</a>
-    </div>
+    <img src="images/Muhammad_Hamza_from_pattoki2.jpg" alt="Muhammad Hamza portrait">
+    <h1>Muhammad Hamza</h1>
+    <p class="subtitle">AI • Machine Learning • Web Development</p>
+    <a class="btn-primary" href="#contact">Hire Me</a>
   </header>
 
-  <!-- About Me -->
   <section id="about">
     <h2>About Me</h2>
-    <p>I’m Muhammad Hamza from Pattoki, a BS Software Engineering student at the University of Okara. I specialise in AI, machine learning, data science, and web development. With experience in Python, TensorFlow, Keras, I strive to build impactful solutions for real-world challenges.</p>
+    <p>I am Muhammad Hamza from Pattoki, Pakistan, specialising in AI, data science and full-stack web development. With experience in Python, TensorFlow, Keras and modern web technologies, I deliver high-impact solutions for clients and businesses.</p>
   </section>
 
-  <!-- Services -->
   <section id="services">
     <h2>Services I Offer</h2>
     <div class="services-grid">
       <div class="service-card">
+        <img class="icon" src="images/icon-ml.png" alt="Machine Learning icon">
         <h3>AI & Machine Learning</h3>
-        <p>Develop custom deep learning and ML models including image classification, segmentation, predictive analytics.</p>
+        <p>Custom deep learning models, image classification, predictive analytics and AI integration for your business.</p>
       </div>
       <div class="service-card">
-        <h3>Web Development</h3>
-        <p>Create responsive, SEO-optimized websites using HTML, CSS, JavaScript, and modern frameworks.</p>
+        <img class="icon" src="images/icon-web.png" alt="Web Development icon">
+        <h3>Web & App Development</h3>
+        <p>Full-stack websites and web apps using HTML/CSS/JS, React/Vue, backend APIs and SEO-optimized architecture.</p>
       </div>
       <div class="service-card">
-        <h3>Data Analysis & Visualization</h3>
-        <p>Data cleaning, exploration, and visualization using Python libraries and intuitive dashboards.</p>
+        <img class="icon" src="images/icon-data.png" alt="Data Analysis icon">
+        <h3>Data Science & Visualization</h3>
+        <p>Analytics, data cleaning, dashboards, visualization and insights to drive decision-making and growth.</p>
+      </div>
+      <div class="service-card">
+        <img class="icon" src="images/icon-freelance.png" alt="Freelance icon">
+        <h3>Freelance Gigs</h3>
+        <p>Available on Fiverr and other platforms- hire me for rapid, quality freelance projects tailored to your budget.</p>
       </div>
     </div>
   </section>
 
-  <!-- Portfolio / Projects -->
-  <section id="portfolio">
-    <h2>My Portfolio</h2>
-    <div class="gallery">
-      <img src="images/Muhammad_Hamza_from_pattoki2.jpg" alt="Muhammad Hamza in formal suit">
-      <img src="images/Muhammad_Hamza_from_pattoki1.jpg" alt="Muhammad Hamza casual office look">
-      <img src="images/Muhammad_Hamza_from_pattoki13.jpg" alt="Muhammad Hamza in white shirt">
-      <img src="images/Muhammad_Hamza_from_pattoki11.jpg" alt="Muhammad Hamza sit outside">
-      <img src="images/Muhammad_Hamza_from_pattoki9.jpg" alt="Muhammad Hamza side view">
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/project-github1.png" alt="GitHub Project 1">
+        <div class="content">
+          <h3>GitHub – Image Classification Model</h3>
+          <p>Developed a convolutional neural network for classification of medical images. <a href="https://github.com/Hamza-code-hub/project-name" target="_blank">View on GitHub</a></p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images/project-linkedin1.png" alt="LinkedIn Project 1">
+        <div class="content">
+          <h3>LinkedIn – Data Science Article Series</h3>
+          <p>Publication of a 5-part tutorial series on data preprocessing and model evaluation. <a href="https://www.linkedin.com/in/hamzzaz" target="_blank">View on LinkedIn</a></p>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images/project-fiverr1.png" alt="Fiverr Freelance Gig">
+        <div class="content">
+          <h3>Fiverr – Web Portfolio Website Design</h3>
+          <p>Delivered responsive portfolio websites for 10+ clients on Fiverr. <a href="https://www.fiverr.com/yourprofile" target="_blank">View my Fiverr gigs</a></p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Contact -->
   <section id="contact">
     <h2>Get In Touch</h2>
-    <p>Let’s discuss your next project or collaboration.</p>
-    <p>📧 <a href="mailto:maherhamza4616@gmail.com">maherhamza4616@gmail.com</a></p>
-    <p>🔗 <a href="https://www.linkedin.com/in/hamzzaz" target="_blank" rel="noopener">LinkedIn</a> | <a href="https://github.com/Hamza-code-hub" target="_blank" rel="noopener">GitHub</a> | <a href="https://www.instagram.com/hmza_mahr/" target="_blank" rel="noopener">Instagram</a></p>
-    <a class="btn-contact" href="mailto:maherhamza4616@gmail.com">Send a Message</a>
+    <p>If you’re ready to start a project or just want to say hello, reach out.</p>
+    <p>Email: <a href="mailto:maherhamza4616@gmail.com">maherhamza4616@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/hamzzaz" target="_blank">Hamza on LinkedIn</a></p>
+    <p>GitHub: <a href="https://github.com/Hamza-code-hub" target="_blank">Hamza on GitHub</a></p>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <p>© 2025 Muhammad Hamza. Built with ❤️ using GitHub Pages.</p>
+    <p>© 2025 Muhammad Hamza. Built with ❤️ on GitHub Pages.</p>
   </footer>
 
 </body>
