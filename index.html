@@ -2,46 +2,98 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
   <title>Muhammad Hamza - Portfolio</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Muhammad Hamza Portfolio" name="keywords">
-  <meta content="Muhammad Hamza - Python & Django Developer | Research Author" name="description">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muhammad Hamza | Python Developer & Research Author Portfolio">
+  <meta name="author" content="Muhammad Hamza">
   <link rel="shortcut icon" href="favicon.png">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
-  <!-- CSS Files (kept from Ali Hassan’s original) -->
+  <!-- Owl Stylesheets -->
   <link rel="stylesheet" href="./css/carousel.css">
   <link rel="stylesheet" href="./css/owl.css">
   <link rel="stylesheet" href="./css/my.css">
-  <link id="theme-style" rel="stylesheet" href="./css/theme.css">
 
   <!-- FontAwesome -->
   <script defer src="./js/all.js"></script>
+
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="./css/theme.css">
+
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #f5f5f5;
+    }
+
+    a,
+    .btn-primary {
+      background: linear-gradient(135deg, #d4af37, #b8860b);
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #b8860b, #d4af37);
+    }
+
+    h1, h2, h3, h4, h5 {
+      color: #ffd700;
+    }
+
+    .header {
+      background: #000;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: #ffd700;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+      color: #ffffff;
+    }
+
+    .theme-link {
+      color: #ffd700;
+    }
+
+    .theme-bg-light {
+      background-color: #1a1a1a !important;
+    }
+
+    footer {
+      background: #111;
+      color: #ffd700;
+    }
+
+    .social-list a {
+      color: #ffd700;
+    }
+
+    .social-list a:hover {
+      color: white;
+    }
+  </style>
 </head>
 
 <body>
   <header class="header text-center">
     <div class="force-overflow">
       <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Muhammad Hamza</a></h1>
-
       <nav class="navbar navbar-expand-lg navbar-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div id="navigation" class="collapse navbar-collapse flex-column">
           <div class="profile-section pt-3 pt-lg-0">
             <img class="profile-image mb-3 rounded-circle mx-auto" src="images/Muhammad_Hamza.png"
               alt="Muhammad Hamza">
-            <div class="bio mb-3">
-              Hi, I am <strong>Muhammad Hamza</strong> — Python & Django Developer | Research Author (Elsevier).  
-              Welcome to my personal portfolio!
-            </div>
-
+            <div class="bio mb-3">Hi, I am Muhammad Hamza — Python & Django Developer | Research Author (Elsevier). Welcome to my
+              personal portfolio!</div>
             <ul class="social-list list-inline py-2 mx-auto">
               <li class="list-inline-item"><a href="https://linkedin.com/in/muhammad-hamza" target="_blank"><i
                     class="fab fa-linkedin-in fa-fw"></i></a></li>
@@ -53,22 +105,14 @@
             <hr>
           </div>
 
-          <!-- ✅ Restored Dark Mode Toggle Section -->
-          <div class="dark-mode-toggle text-center w-100">
-            <hr class="mb-4">
-            <h4 class="toggle-name mb-3"><i class="fas fa-adjust mr-1"></i>Dark Mode</h4>
-            <input class="toggle" id="darkmode" type="checkbox">
-            <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
-          </div>
-          <!-- ✅ End of Dark Mode Section -->
-
           <ul class="navbar-nav flex-column text-left">
             <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a></li>
-            <li class="nav-item"><a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html"><i
+                  class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a></li>
             <li class="nav-item"><a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html"><i
+                  class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a></li>
           </ul>
-
           <div class="my-2">
             <a class="btn btn-primary" href="contact.html"><i class="fas fa-paper-plane mr-2"></i>Hire Me</a>
           </div>
@@ -78,7 +122,6 @@
   </header>
 
   <div class="main-wrapper">
-    <!-- About Section -->
     <section class="about-me-section p-3 p-lg-5 theme-bg-light">
       <div class="container">
         <div class="profile-teaser media flex-column flex-lg-row">
@@ -86,14 +129,11 @@
             <h2 class="name font-weight-bold mb-1">Muhammad Hamza</h2>
             <div class="tagline mb-3">Python & Django Developer | Research Author (Elsevier)</div>
             <div class="bio mb-4">
-              I’m a Python developer specializing in AI, deep learning, and web development using Django.  
-              My experience includes medical image analysis, automation, and 3D model processing.  
-              I’m passionate about creating efficient solutions that merge innovation with real-world applications.
+              I’m a Python developer specializing in AI, deep learning, and web development using Django. My experience includes medical image analysis, automation, and 3D model processing. I’m passionate about creating efficient solutions that merge innovation with real-world applications.
               <br><br>
-              Explore my <a class="theme-link" href="portfolio.html">projects</a> and 
-              <a class="theme-link" href="resume.html">resume</a> to learn more.
+              Explore my <a class="theme-link" href="portfolio.html">projects</a> and <a class="theme-link"
+                href="resume.html">resume</a> to learn more.
             </div>
-
             <div class="mb-4">
               <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i
                   class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio</a>
@@ -101,12 +141,11 @@
                   class="fas fa-file-alt mr-2"></i>View Resume</a>
             </div>
           </div>
-          <img class="profile-image mb-3 mb-lg-0 ml-lg-5" src="./Images/Hamza Professional Pic.jpg" alt="Muhammad Hamza">
+          <img class="profile-image mb-3 mb-lg-0 ml-lg-5" src="images/Muhammad_Hamza.png" alt="">
         </div>
       </div>
     </section>
 
-    <!-- Core Skills -->
     <section class="overview-section p-3 p-lg-5">
       <div class="container">
         <h2 class="section-title font-weight-bold mb-3">Core Skills</h2>
@@ -146,7 +185,6 @@
       </div>
     </section>
 
-    <!-- Featured Projects -->
     <section class="featured-section p-3 p-lg-5">
       <div class="container">
         <h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
@@ -159,6 +197,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-6 mb-5">
             <div class="card project-card">
               <div class="card-body">
@@ -174,13 +213,12 @@
       </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer text-center py-4">
       <small class="copyright">© 2025 Muhammad Hamza — Python Developer | Research Author</small>
     </footer>
   </div>
 
-  <!-- JS Files (kept same as Ali’s original) -->
+  <!-- Scripts -->
   <script src="./js/jquery.js"></script>
   <script src="./js/proper.js"></script>
   <script src="./js/bootstrap.js"></script>
@@ -190,3 +228,6 @@
   <script src="./js/dark.js"></script>
 </body>
 </html>
+
+
+
