@@ -85,7 +85,9 @@ section, header, footer {
   border: 1px solid rgba(255, 255, 255, 0.08);
   color: #e0e0e0;
 }
-
+.dark-mode .section-intro{
+    color: #ffffff;
+}
 .dark-mode .section-title {
   color: #fff !important;
 }
