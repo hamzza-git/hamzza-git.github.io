@@ -34,7 +34,7 @@ html, body {
 
 /* Prevent images from stretching past their container */
 img {
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
   display: block;
 }
@@ -96,71 +96,4 @@ section, header, footer {
 .dark-mode .bio,
 .dark-mode .quote-content {
   color: #cfcfcf !important;
-}
-/* --- What I Do Section Styling --- */
-#whatido .item {
-  display: flex;
-  flex-direction: column;
-}
-
-#whatido .item-inner {
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  padding: 20px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-#whatido .item-inner:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-#whatido .item-icon {
-  width: 45px;
-  height: 45px;
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#whatido .item-icon img,
-#whatido .item-icon i {
-  width: 45px;
-  height: 45px;
-  font-size: 45px;
-  color: #000;
-}
-
-#whatido .item-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-#whatido .item-desc {
-  flex-grow: 1;
-  font-size: 0.95rem;
-  color: #555;
-}
-
-/* --- Dark Mode --- */
-.dark-mode #whatido .item-inner {
-  background: #1e1e1e;
-  color: #ddd;
-  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
-}
-
-.dark-mode #whatido .item-title {
-  color: #fff;
-}
-
-.dark-mode #whatido .item-desc {
-  color: #ccc;
 }
