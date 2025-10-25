@@ -44,3 +44,8 @@ section, header, footer {
   width: 100%;
   box-sizing: border-box;
 }
+.about-me-section .profile-image {
+  width: 230px;
+  height: auto;
+  border-radius: 8px;
+}
