@@ -1,232 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Muhammad Hamza - Portfolio</title>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Muhammad Hamza | Python Developer & Research Author Portfolio">
-  <meta name="author" content="Muhammad Hamza">
-  <link rel="shortcut icon" href="favicon.png">
+  <title>Muhammad Hamza - Portfolio</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="Portfolio" name="keywords">
+  <meta content="Personal Portfolio" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,600,700" rel="stylesheet">
 
-  <!-- Owl Stylesheets -->
-  <link rel="stylesheet" href="./css/carousel.css">
-  <link rel="stylesheet" href="./css/owl.css">
-  <link rel="stylesheet" href="./css/my.css">
-
-  <!-- FontAwesome -->
-  <script defer src="./js/all.js"></script>
-
-  <!-- Theme CSS -->
-  <link id="theme-style" rel="stylesheet" href="./css/theme.css">
-
-  <style>
-    body {
-      background-color: #0e0e0e;
-      color: #f5f5f5;
-    }
-
-    a,
-    .btn-primary {
-      background: linear-gradient(135deg, #d4af37, #b8860b);
-      border: none;
-    }
-
-    .btn-primary:hover {
-      background: linear-gradient(135deg, #b8860b, #d4af37);
-    }
-
-    h1, h2, h3, h4, h5 {
-      color: #ffd700;
-    }
-
-    .header {
-      background: #000;
-    }
-
-    .navbar-dark .navbar-nav .nav-link {
-      color: #ffd700;
-    }
-
-    .navbar-dark .navbar-nav .nav-link:hover {
-      color: #ffffff;
-    }
-
-    .theme-link {
-      color: #ffd700;
-    }
-
-    .theme-bg-light {
-      background-color: #1a1a1a !important;
-    }
-
-    footer {
-      background: #111;
-      color: #ffd700;
-    }
-
-    .social-list a {
-      color: #ffd700;
-    }
-
-    .social-list a:hover {
-      color: white;
-    }
-  </style>
+  <!-- CSS Files -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/nivo-slider-theme.css" rel="stylesheet">
 </head>
 
-<body>
-  <header class="header text-center">
-    <div class="force-overflow">
-      <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Muhammad Hamza</a></h1>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navigation" class="collapse navbar-collapse flex-column">
-          <div class="profile-section pt-3 pt-lg-0">
-            <img class="profile-image mb-3 rounded-circle mx-auto" src="images/Muhammad_Hamza.png"
-              alt="Muhammad Hamza">
-            <div class="bio mb-3">Hi, I am Muhammad Hamza — Python & Django Developer | Research Author (Elsevier). Welcome to my
-              personal portfolio!</div>
-            <ul class="social-list list-inline py-2 mx-auto">
-              <li class="list-inline-item"><a href="https://linkedin.com/in/muhammad-hamza" target="_blank"><i
-                    class="fab fa-linkedin-in fa-fw"></i></a></li>
-              <li class="list-inline-item"><a href="https://github.com/muhammadhamza" target="_blank"><i
-                    class="fab fa-github-alt fa-fw"></i></a></li>
-              <li class="list-inline-item"><a href="mailto:muhammadhamza@gmail.com"><i
-                    class="fas fa-envelope fa-fw"></i></a></li>
-            </ul>
-            <hr>
-          </div>
+<body data-spy="scroll" data-target="#navbar-example">
 
-          <ul class="navbar-nav flex-column text-left">
-            <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a></li>
-            <li class="nav-item"><a class="nav-link" href="portfolio.html"><i
-                  class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html"><i
-                  class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a></li>
-          </ul>
-          <div class="my-2">
-            <a class="btn btn-primary" href="contact.html"><i class="fas fa-paper-plane mr-2"></i>Hire Me</a>
+  <div id="preloader"></div>
+
+  <header>
+    <div id="sticker" class="header-area">
+      <div class="container">
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Muhammad <span>Hamza</span></a>
           </div>
-        </div>
-      </nav>
+          <div class="collapse navbar-collapse main-menu" id="navbar-example">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="page-scroll" href="#home">Home</a></li>
+              <li><a class="page-scroll" href="#about">About</a></li>
+              <li><a class="page-scroll" href="#services">Services</a></li>
+              <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+              <li><a class="page-scroll" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
   </header>
 
-  <div class="main-wrapper">
-    <section class="about-me-section p-3 p-lg-5 theme-bg-light">
-      <div class="container">
-        <div class="profile-teaser media flex-column flex-lg-row">
-          <div class="media-body">
-            <h2 class="name font-weight-bold mb-1">Muhammad Hamza</h2>
-            <div class="tagline mb-3">Python & Django Developer | Research Author (Elsevier)</div>
-            <div class="bio mb-4">
-              I’m a Python developer specializing in AI, deep learning, and web development using Django. My experience includes medical image analysis, automation, and 3D model processing. I’m passionate about creating efficient solutions that merge innovation with real-world applications.
-              <br><br>
-              Explore my <a class="theme-link" href="portfolio.html">projects</a> and <a class="theme-link"
-                href="resume.html">resume</a> to learn more.
-            </div>
-            <div class="mb-4">
-              <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i
-                  class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio</a>
-              <a class="btn btn-secondary mb-3" href="resume.html"><i
-                  class="fas fa-file-alt mr-2"></i>View Resume</a>
-            </div>
-          </div>
-          <img class="profile-image mb-3 mb-lg-0 ml-lg-5" src="./Images/Hamza Professional Pic.jpg" alt="">
-        </div>
+  <!-- Home Section -->
+  <section id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="img/slider/hamza-slide1.jpg" alt="" title="#slider-direction-1" />
+        <img src="img/slider/hamza-slide2.jpg" alt="" title="#slider-direction-2" />
       </div>
-    </section>
 
-    <section class="overview-section p-3 p-lg-5">
-      <div class="container">
-        <h2 class="section-title font-weight-bold mb-3">Core Skills</h2>
-        <div class="section-intro mb-5">
-          My main technical areas of expertise include machine learning, web development, and AI research.
-        </div>
-        <div class="row">
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner text-center">
-              <i class="fab fa-python fa-3x"></i>
-              <h3 class="item-title mt-3">Python</h3>
-              <p>Advanced programming with libraries like NumPy, OpenCV, TensorFlow, and PyTorch.</p>
-            </div>
-          </div>
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner text-center">
-              <i class="fas fa-brain fa-3x"></i>
-              <h3 class="item-title mt-3">Deep Learning</h3>
-              <p>Experience in CNNs, medical image segmentation, and model ensembling for histopathology tasks.</p>
-            </div>
-          </div>
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner text-center">
-              <i class="fab fa-django fa-3x"></i>
-              <h3 class="item-title mt-3">Django</h3>
-              <p>Developing dynamic web applications and REST APIs with authentication and AI integration.</p>
-            </div>
-          </div>
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner text-center">
-              <i class="fas fa-database fa-3x"></i>
-              <h3 class="item-title mt-3">Data Science</h3>
-              <p>Proficient in feature engineering, model tuning, and dataset visualization using Pandas & Matplotlib.</p>
-            </div>
+      <div id="slider-direction-1" class="slider-direction">
+        <div class="container">
+          <div class="slider-content text-center">
+            <h2 class="title1">Hello, I’m <strong>Muhammad Hamza</strong></h2>
+            <h3 class="title2">A Passionate Software Engineer</h3>
+            <a href="#portfolio" class="ready-btn right-btn page-scroll">My Work</a>
+            <a href="#contact" class="ready-btn page-scroll">Hire Me</a>
           </div>
         </div>
       </div>
-    </section>
 
-    <section class="featured-section p-3 p-lg-5">
-      <div class="container">
-        <h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
-        <div class="row">
-          <div class="col-md-6 mb-5">
-            <div class="card project-card">
-              <div class="card-body">
-                <h5 class="card-title">3D Medical Image Segmentation</h5>
-                <p class="card-text">Deep learning-based segmentation using ensemble CNN architectures for volumetric scans.</p>
-              </div>
-            </div>
+      <div id="slider-direction-2" class="slider-direction">
+        <div class="container">
+          <div class="slider-content text-center">
+            <h2 class="title1">I Build Scalable Web Apps</h2>
+            <h3 class="title2">and deliver innovative solutions.</h3>
+            <a href="#about" class="ready-btn right-btn page-scroll">About Me</a>
+            <a href="#contact" class="ready-btn page-scroll">Contact</a>
           </div>
-
-          <div class="col-md-6 mb-5">
-            <div class="card project-card">
-              <div class="card-body">
-                <h5 class="card-title">AI-Powered Django Web App</h5>
-                <p class="card-text">An intelligent web application integrating ML model predictions into Django views.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="text-center py-3">
-          <a href="portfolio.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>View Full Portfolio</a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="footer text-center py-4">
-      <small class="copyright">© 2025 Muhammad Hamza — Python Developer | Research Author</small>
-    </footer>
+  <!-- About Section -->
+  <div id="about" class="about-area area-padding">
+    <div class="container">
+      <div class="section-headline text-center">
+        <h2>About Me</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well-left">
+            <img src="img/about/hamza-profile.jpg" alt="Muhammad Hamza" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well-middle">
+            <div class="single-well">
+              <h4 class="sec-head">I’m Muhammad Hamza</h4>
+              <p>
+                A results-driven Software Engineer with expertise in full-stack web development, mobile app design, and database systems. 
+                I love building efficient and user-friendly solutions that solve real-world problems.
+              </p>
+              <ul>
+                <li><i class="fa fa-check"></i> Full Stack Web Development</li>
+                <li><i class="fa fa-check"></i> Database & API Design</li>
+                <li><i class="fa fa-check"></i> UI/UX Implementation</li>
+                <li><i class="fa fa-check"></i> Cloud Deployment & Testing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <!-- Scripts -->
-  <script src="./js/jquery.js"></script>
-  <script src="./js/proper.js"></script>
-  <script src="./js/bootstrap.js"></script>
-  <script src="./js/m.js"></script>
-  <script src="./js/testimo.js"></script>
-  <script src="./js/cookie.js"></script>
-  <script src="./js/dark.js"></script>
+  <!-- Services Section -->
+  <div id="services" class="services-area area-padding">
+    <div class="container">
+      <div class="section-headline text-center">
+        <h2>My Services</h2>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 col-sm-4">
+          <div class="single-services">
+            <i class="fa fa-code"></i>
+            <h4>Web Development</h4>
+            <p>Building responsive, fast, and secure web applications using modern frameworks like React, Django, and Laravel.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="single-services">
+            <i class="fa fa-mobile"></i>
+            <h4>App Development</h4>
+            <p>Developing mobile-friendly and cross-platform apps that provide seamless user experiences.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="single-services">
+            <i class="fa fa-cloud"></i>
+            <h4>Cloud Integration</h4>
+            <p>Deploying and maintaining scalable applications on AWS, Firebase, and Azure environments.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+  <div id="portfolio" class="portfolio-area area-padding">
+    <div class="container">
+      <div class="section-headline text-center">
+        <h2>My Portfolio</h2>
+      </div>
+      <div class="row awesome-project-content">
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="single-awesome-project">
+            <div class="awesome-img">
+              <a href="#"><img src="img/portfolio/hamza1.jpg" alt="Project 1" /></a>
+              <div class="add-actions text-center">
+                <div class="project-dec">
+                  <h4>Online Shop System</h4>
+                  <span>Web Application</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="single-awesome-project">
+            <div class="awesome-img">
+              <a href="#"><img src="img/portfolio/hamza2.jpg" alt="Project 2" /></a>
+              <div class="add-actions text-center">
+                <div class="project-dec">
+                  <h4>Portfolio Website</h4>
+                  <span>Frontend Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="single-awesome-project">
+            <div class="awesome-img">
+              <a href="#"><img src="img/portfolio/hamza3.jpg" alt="Project 3" /></a>
+              <div class="add-actions text-center">
+                <div class="project-dec">
+                  <h4>AI Chat Interface</h4>
+                  <span>Machine Learning Integration</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact" class="contact-area">
+    <div class="contact-inner area-padding">
+      <div class="container">
+        <div class="section-headline text-center">
+          <h2>Contact Me</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-icon text-center">
+              <i class="fa fa-envelope"></i>
+              <p>Email: <strong>muhammad.hamza@example.com</strong></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-icon text-center">
+              <i class="fa fa-phone"></i>
+              <p>Phone: <strong>+92 300 1234567</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <p>Follow me on social media:</p>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2025 Muhammad Hamza. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JS Files -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js"></script>
+  <script src="lib/appear/jquery.appear.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
-
-
