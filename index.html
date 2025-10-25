@@ -12,7 +12,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
-  <!-- CSS Files (kept from Ali Hassan’s original) -->
+  <!-- CSS Files -->
   <link rel="stylesheet" href="./css/carousel.css">
   <link rel="stylesheet" href="./css/owl.css">
   <link rel="stylesheet" href="./css/my.css">
@@ -20,6 +20,33 @@
 
   <!-- FontAwesome -->
   <script defer src="./js/all.js"></script>
+
+  <!-- ✅ Schema Markup for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Muhammad Hamza",
+    "description": "Professional from Pattoki, showcasing portfolio and photos.",
+    "image": [
+      "https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki2.jpg",
+      "https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki1.jpg",
+      "https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki13.jpg",
+      "https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki11.jpg",
+      "https://hamza-code-hub.github.io/images/Muhammad_Hamza_from_pattoki9.jpg"
+    ],
+    "jobTitle": "Professional",
+    "url": "https://hamza-code-hub.github.io/",
+    "sameAs": [
+      "https://www.linkedin.com/in/hamzzaz",
+      "https://www.facebook.com/people/Muhammad-Hamza/61580252272534/",
+      "https://www.instagram.com/hmza_mahr/",
+      "https://scholar.google.com/citations?user=akj6QK0AAAAJ&hl=en",
+      "https://www.kaggle.com/muhammadhamzamaher",
+      "https://github.com/Hamza-code-hub"
+    ]
+  }
+  </script>
 </head>
 
 <body>
@@ -35,35 +62,37 @@
 
         <div id="navigation" class="collapse navbar-collapse flex-column">
           <div class="profile-section pt-3 pt-lg-0">
-            <img class="profile-image mb-3 rounded-circle mx-auto" src="images/Muhammad_Hamza.png"
-              alt="Muhammad Hamza">
+            <img class="profile-image mb-3 rounded-circle mx-auto" src="images/Muhammad_Hamza.png" alt="Muhammad Hamza">
             <div class="bio mb-3">
               Hi, I am <strong>Muhammad Hamza</strong> — Python & Django Developer | Research Author (Elsevier).  
               Welcome to my personal portfolio!
             </div>
 
             <ul class="social-list list-inline py-2 mx-auto">
-              <li class="list-inline-item"><a href="https://linkedin.com/in/muhammad-hamza" target="_blank"><i
+              <li class="list-inline-item"><a href="https://linkedin.com/in/hamzzaz" target="_blank"><i
                     class="fab fa-linkedin-in fa-fw"></i></a></li>
-              <li class="list-inline-item"><a href="https://github.com/muhammadhamza" target="_blank"><i
+              <li class="list-inline-item"><a href="https://github.com/Hamza-code-hub" target="_blank"><i
                     class="fab fa-github-alt fa-fw"></i></a></li>
-              <li class="list-inline-item"><a href="mailto:muhammadhamza@gmail.com"><i
+              <li class="list-inline-item"><a href="mailto:maherhamza4616@gmail.com"><i
                     class="fas fa-envelope fa-fw"></i></a></li>
             </ul>
             <hr>
           </div>
 
-          <!-- ✅ Restored Dark Mode Toggle Section -->
+          <!-- ✅ Dark Mode Toggle -->
           <div class="dark-mode-toggle text-center w-100">
             <hr class="mb-4">
             <h4 class="toggle-name mb-3"><i class="fas fa-adjust mr-1"></i>Dark Mode</h4>
             <input class="toggle" id="darkmode" type="checkbox">
             <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
           </div>
-          <!-- ✅ End of Dark Mode Section -->
 
           <ul class="navbar-nav flex-column text-left">
             <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services"><i class="fas fa-briefcase fa-fw mr-2"></i>Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#whatido"><i class="fas fa-tasks fa-fw mr-2"></i>What I Do</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery"><i class="fas fa-images fa-fw mr-2"></i>Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials"><i class="fas fa-comment-dots fa-fw mr-2"></i>Testimonials</a></li>
             <li class="nav-item"><a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a></li>
             <li class="nav-item"><a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a></li>
             <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a></li>
@@ -78,6 +107,7 @@
   </header>
 
   <div class="main-wrapper">
+
     <!-- About Section -->
     <section class="about-me-section p-3 p-lg-5 theme-bg-light">
       <div class="container">
@@ -93,12 +123,9 @@
               Explore my <a class="theme-link" href="portfolio.html">projects</a> and 
               <a class="theme-link" href="resume.html">resume</a> to learn more.
             </div>
-
             <div class="mb-4">
-              <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i
-                  class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio</a>
-              <a class="btn btn-secondary mb-3" href="resume.html"><i
-                  class="fas fa-file-alt mr-2"></i>View Resume</a>
+              <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio</a>
+              <a class="btn btn-secondary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i>View Resume</a>
             </div>
           </div>
           <img class="profile-image mb-3 mb-lg-0 ml-lg-5" src="images/Muhammad Hamza from Pattoki.jpg" alt="Muhammad Hamza" style="width: 230px; height: auto; border-radius: 8px;">
@@ -106,70 +133,90 @@
       </div>
     </section>
 
-    <!-- Core Skills -->
-    <section class="overview-section p-3 p-lg-5">
+    <!-- Services Section -->
+    <section id="services" class="overview-section p-3 p-lg-5">
       <div class="container">
-        <h2 class="section-title font-weight-bold mb-3">Core Skills</h2>
-        <div class="section-intro mb-5">
-          My main technical areas of expertise include machine learning, web development, and AI research.
-        </div>
+        <h2 class="section-title font-weight-bold mb-3">Services</h2>
+        <div class="section-intro mb-5">I offer full-stack development and AI-driven solutions with modern, scalable approaches.</div>
         <div class="row">
-          <div class="item col-6 col-lg-3">
+          <div class="item col-md-4">
             <div class="item-inner text-center">
-              <i class="fab fa-python fa-3x"></i>
-              <h3 class="item-title mt-3">Python</h3>
-              <p>Advanced programming with libraries like NumPy, OpenCV, TensorFlow, and PyTorch.</p>
+              <i class="fas fa-code fa-3x"></i>
+              <h3 class="item-title mt-3">Web Development</h3>
+              <p>Custom Django websites and REST APIs with database integration and responsive front-end design.</p>
             </div>
           </div>
-          <div class="item col-6 col-lg-3">
+          <div class="item col-md-4">
             <div class="item-inner text-center">
-              <i class="fas fa-brain fa-3x"></i>
-              <h3 class="item-title mt-3">Deep Learning</h3>
-              <p>Experience in CNNs, medical image segmentation, and model ensembling for histopathology tasks.</p>
+              <i class="fas fa-robot fa-3x"></i>
+              <h3 class="item-title mt-3">AI & Automation</h3>
+              <p>Intelligent automation systems using Python, OpenCV, and TensorFlow for data-driven results.</p>
             </div>
           </div>
-          <div class="item col-6 col-lg-3">
+          <div class="item col-md-4">
             <div class="item-inner text-center">
-             <i class="fa-solid fa-code"></i>
-              <h3 class="item-title mt-3">Django</h3>
-              <p>Developing dynamic web applications and REST APIs with authentication and AI integration.</p>
-            </div>
-          </div>
-          <div class="item col-6 col-lg-3">
-            <div class="item-inner text-center">
-              <i class="fas fa-database fa-3x"></i>
-              <h3 class="item-title mt-3">Data Science</h3>
-              <p>Proficient in feature engineering, model tuning, and dataset visualization using Pandas & Matplotlib.</p>
+              <i class="fas fa-chart-line fa-3x"></i>
+              <h3 class="item-title mt-3">Data Analytics</h3>
+              <p>Insights through advanced data analysis, visualization, and predictive modeling using Pandas & Scikit-learn.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Featured Projects -->
-    <section class="featured-section p-3 p-lg-5">
+    <!-- What I Do Section -->
+    <section id="whatido" class="featured-section p-3 p-lg-5 theme-bg-light">
       <div class="container">
-        <h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
+        <h2 class="section-title font-weight-bold mb-3">What I Do</h2>
+        <div class="section-intro mb-5">I specialize in building intelligent web systems that bridge research and real-world applications.</div>
         <div class="row">
-          <div class="col-md-6 mb-5">
-            <div class="card project-card">
-              <div class="card-body">
-                <h5 class="card-title">3D Medical Image Segmentation</h5>
-                <p class="card-text">Deep learning-based segmentation using ensemble CNN architectures for volumetric scans.</p>
-              </div>
+          <div class="col-md-6">
+            <div class="card shadow-sm p-4 mb-4">
+              <h5><i class="fas fa-brain mr-2"></i> Machine Learning</h5>
+              <p>Implementing predictive models for classification, regression, and segmentation tasks using PyTorch and TensorFlow.</p>
             </div>
           </div>
-          <div class="col-md-6 mb-5">
-            <div class="card project-card">
-              <div class="card-body">
-                <h5 class="card-title">AI-Powered Django Web App</h5>
-                <p class="card-text">An intelligent web application integrating ML model predictions into Django views.</p>
-              </div>
+          <div class="col-md-6">
+            <div class="card shadow-sm p-4 mb-4">
+              <h5><i class="fas fa-server mr-2"></i> Backend Engineering</h5>
+              <p>Creating secure and optimized server-side logic, REST APIs, and user authentication systems with Django.</p>
             </div>
           </div>
         </div>
-        <div class="text-center py-3">
-          <a href="portfolio.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>View Full Portfolio</a>
+      </div>
+    </section>
+
+    <!-- ✅ Photo Gallery Section -->
+    <section id="gallery" class="overview-section p-3 p-lg-5">
+      <div class="container">
+        <h2 class="section-title font-weight-bold mb-3">Photo Gallery</h2>
+        <div class="gallery d-flex flex-wrap justify-content-center gap-3">
+          <img src="images/Muhammad_Hamza_from_pattoki2.jpg" alt="Muhammad Hamza in formal suit" style="width:200px;border-radius:10px;">
+          <img src="images/Muhammad_Hamza_from_pattoki1.jpg" alt="Muhammad Hamza casual office look" style="width:200px;border-radius:10px;">
+          <img src="images/Muhammad_Hamza_from_pattoki13.jpg" alt="Muhammad Hamza in white shirt" style="width:200px;border-radius:10px;">
+          <img src="images/Muhammad_Hamza_from_pattoki11.jpg" alt="Muhammad Hamza outdoor" style="width:200px;border-radius:10px;">
+          <img src="images/Muhammad_Hamza_from_pattoki9.jpg" alt="Muhammad Hamza side view" style="width:200px;border-radius:10px;">
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="featured-section p-3 p-lg-5 theme-bg-light">
+      <div class="container">
+        <h2 class="section-title font-weight-bold mb-5">Testimonials</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card p-4 mb-4 shadow-sm">
+              <p>“Muhammad Hamza is an exceptional developer — highly skilled in Django and AI-based projects. His professionalism and creativity are outstanding.”</p>
+              <h6 class="font-weight-bold mt-3">— Dr. Ayesha Khan, Research Collaborator</h6>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card p-4 mb-4 shadow-sm">
+              <p>“Working with Hamza was a great experience! He delivered a clean, optimized, and scalable web system ahead of schedule.”</p>
+              <h6 class="font-weight-bold mt-3">— Usman Tariq, Project Manager</h6>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -180,7 +227,7 @@
     </footer>
   </div>
 
-  <!-- JS Files (kept same as Ali’s original) -->
+  <!-- JS Files -->
   <script src="./js/jquery.js"></script>
   <script src="./js/proper.js"></script>
   <script src="./js/bootstrap.js"></script>
@@ -190,9 +237,3 @@
   <script src="./js/dark.js"></script>
 </body>
 </html>
-
-
-
-
-
-
