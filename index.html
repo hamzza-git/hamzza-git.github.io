@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <title>Muhammad Hamza | Python Developer & Research Expert</title>
-  <meta name="description" content="Muhammad Hamza – Python & Django Developer, API Integration Specialist, Research Paper Writer, Data Scientist, and Visualization Expert. Published Author in Elsevier.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+  <title>Muhammad Hamza | Python Developer & Research Expert</title>
+
+  <!-- SEO -->
+  <meta name="description"
+    content="Muhammad Hamza – Python & Django Developer, API Integration Specialist, Research Paper Writer, Data Scientist, and Visualization Expert. Published Author in Elsevier.">
+
   <!-- Open Graph -->
   <meta property="og:title" content="Muhammad Hamza | Python Developer & Research Expert" />
-  <meta property="og:description" content="Portfolio of Muhammad Hamza – Python & Django Developer, Research Paper Writer, and Data Science Professional." />
-  <meta property="og:image" content="https://hamza-code-hub.github.io/images/Hamza Professional Pic.jpg" />
+  <meta property="og:description"
+    content="Portfolio of Muhammad Hamza – Python & Django Developer, Research Paper Writer, and Data Science Professional." />
+  <meta property="og:image" content="images/Hamza Professional Pic.jpg" />
   <meta property="og:url" content="https://hamza-code-hub.github.io/" />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -20,7 +25,7 @@
     "@type": "Person",
     "name": "Muhammad Hamza",
     "description": "Python Developer, Django Expert, Research Author (Elsevier), and Data Science Professional.",
-    "image": "https://hamza-code-hub.github.io/images/Hamza Professional Pic.jpg",
+    "image": "images/Hamza Professional Pic.jpg",
     "jobTitle": "Python & Django Developer",
     "url": "https://hamza-code-hub.github.io/",
     "sameAs": [
@@ -32,254 +37,194 @@
   }
   </script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <!-- Favicon & Fonts -->
   <link rel="icon" type="image/png" href="images/favicon.ico" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet" />
 
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
-      color: #fff;
-      overflow-x: hidden;
-    }
-
-    header {
-      text-align: center;
-      padding: 120px 20px 80px;
-      background: radial-gradient(circle at center, #0096c7 0%, #023e8a 100%);
-      color: white;
-      position: relative;
-    }
-    header img {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      border: 5px solid #fff;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
-      margin-bottom: 20px;
-    }
-    header h1 { font-size: 50px; margin-bottom: 10px; }
-    header p.subtitle { font-size: 22px; opacity: 0.9; }
-    header a.btn {
-      display: inline-block;
-      background: #fff;
-      color: #0077b6;
-      padding: 12px 30px;
-      border-radius: 30px;
-      font-weight: 600;
-      margin-top: 25px;
-      text-decoration: none;
-      transition: all 0.3s;
-    }
-    header a.btn:hover { background: #00b4d8; color: #fff; }
-
-    section {
-      max-width: 1100px;
-      margin: auto;
-      padding: 70px 20px;
-      text-align: center;
-    }
-    section h2 {
-      font-size: 36px;
-      margin-bottom: 40px;
-      color: #90e0ef;
-    }
-    section p {
-      font-size: 18px;
-      line-height: 1.7;
-      color: #f1f1f1;
-    }
-
-    /* SERVICES */
-    .services {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 25px;
-    }
-    .service-card {
-      background: rgba(255, 255, 255, 0.08);
-      border-radius: 15px;
-      width: 300px;
-      padding: 30px;
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .service-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-    }
-    .service-card img {
-      width: 70px;
-      margin-bottom: 15px;
-    }
-    .service-card h3 {
-      color: #48cae4;
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-
-    /* PROJECTS */
-    .projects {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-    }
-    .project-card {
-      background: rgba(255,255,255,0.08);
-      border-radius: 15px;
-      overflow: hidden;
-      width: 320px;
-      text-align: left;
-      transition: transform 0.3s;
-    }
-    .project-card:hover { transform: scale(1.05); }
-    .project-card img { width: 100%; height: 200px; object-fit: cover; }
-    .project-card .content { padding: 20px; }
-    .project-card h3 { color: #48cae4; font-size: 20px; }
-    .project-card p { font-size: 15px; margin: 10px 0 15px; }
-    .project-card a { color: #00b4d8; font-weight: 500; text-decoration: none; }
-
-    /* RESEARCH */
-    .research-card {
-      background: rgba(255,255,255,0.08);
-      border-radius: 15px;
-      padding: 25px;
-      max-width: 800px;
-      margin: 20px auto;
-    }
-    .research-card h3 {
-      color: #90e0ef;
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-    .research-card a {
-      color: #00b4d8;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    /* CONTACT */
-    #contact a {
-      color: #90e0ef;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    #contact a:hover { color: #fff; }
-
-    footer {
-      text-align: center;
-      background: #001219;
-      padding: 30px;
-      color: #aaa;
-      font-size: 14px;
-    }
-
-    @media (max-width: 768px) {
-      header h1 { font-size: 38px; }
-      .services, .projects { flex-direction: column; align-items: center; }
-    }
-  </style>
+  <!-- Main CSS (Ali Hassan layout preserved) -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-  <header>
-    <img src="images/Hamza Professional Pic.jpg" alt="Muhammad Hamza Portrait">
-    <h1>Muhammad Hamza</h1>
-    <p class="subtitle">Python & Django Developer | Research Author (Elsevier) | Data Science Professional</p>
-    <a href="#contact" class="btn">Contact Me</a>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-top">
+    <div class="container">
+      <h1><a href="index.html">Muhammad Hamza</a></h1>
+      <h2>I'm a passionate <span>Python & Django Developer</span> from Pakistan</h2>
+      <img src="images/Hamza Professional Pic.jpg" class="img-fluid rounded-circle" alt="Muhammad Hamza">
+      <div class="social-links mt-3 text-center">
+        <a href="https://github.com/Hamza-code-hub" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/hamzzaz" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="mailto:maherhamza4616@gmail.com" class="email"><i class="bx bx-envelope"></i></a>
+      </div>
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#about" class="nav-link scrollto active"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-cog"></i> <span>Services</span></a></li>
+          <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-code"></i> <span>Projects</span></a></li>
+          <li><a href="#research" class="nav-link scrollto"><i class="bx bx-book"></i> <span>Research</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am Muhammad Hamza, a Python and Django Developer from Pakistan. I specialize in backend web development, RESTful API integration and creation, 
-      advanced data analysis, and academic research. I have authored a research paper published in Elsevier, focusing on data-driven methodologies. 
-      My passion lies in transforming data and logic into real-world, impactful systems.
-    </p>
-  </section>
-
-  <section id="services">
-    <h2>My Professional Services</h2>
-    <div class="services">
-      <div class="service-card">
-        <img src="images/icon-python.png" alt="Python Icon" />
-        <h3>Python & Django Development</h3>
-        <p>Custom Django web applications, backend APIs, authentication systems, and scalable architecture using Python.</p>
-      </div>
-      <div class="service-card">
-        <img src="images/icon-api.png" alt="API Icon" />
-        <h3>API Integration & Creation</h3>
-        <p>RESTful API design, third-party API integration, and automation workflows to connect platforms and systems efficiently.</p>
-      </div>
-      <div class="service-card">
-        <img src="images/icon-data.png" alt="Data Science Icon" />
-        <h3>Data Science & Visualization</h3>
-        <p>Data analysis, visualization, dashboards, and predictive modeling for research and business decision-making.</p>
-      </div>
-      <div class="service-card">
-        <img src="images/icon-research.png" alt="Research Icon" />
-        <h3>Research Papers & Methodologies</h3>
-        <p>Professional academic writing, research methodology design, data collection, and paper formatting for PhD/Master levels.</p>
-      </div>
-      <div class="service-card">
-        <img src="images/icon-writing.png" alt="Assignment Icon" />
-        <h3>Academic Assignments</h3>
-        <p>Assistance with research-based assignments, proposals, and projects following international standards.</p>
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Me</h2>
+        <p>
+          I am Muhammad Hamza, a Python and Django Developer from Pakistan. I specialize in backend web development,
+          RESTful API integration and creation, advanced data analysis, and academic research.
+          I authored a research paper published in Elsevier, focusing on data-driven methodologies.
+          My passion lies in transforming data and logic into real-world, impactful systems.
+        </p>
       </div>
     </div>
   </section>
 
-  <section id="projects">
-    <h2>Featured Projects</h2>
-    <div class="projects">
-      <div class="project-card">
-        <img src="images/project-django.jpg" alt="Django Project">
-        <div class="content">
-          <h3>University Timetable System (Django)</h3>
-          <p>Automated scheduling and course allocation using Django and PostgreSQL.</p>
-          <a href="https://github.com/Hamza-code-hub" target="_blank">View Project</a>
-        </div>
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>My Professional Services</h2>
       </div>
-      <div class="project-card">
-        <img src="images/project-api.jpg" alt="API Integration">
-        <div class="content">
-          <h3>Renteon RMS Integration</h3>
-          <p>Integrated Renteon API with a car rental website to sync booking and availability data.</p>
-          <a href="https://github.com/Hamza-code-hub" target="_blank">View Project</a>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 icon-box">
+          <img src="images/icon-python.png" alt="Python Icon" width="60">
+          <h4 class="title">Python & Django Development</h4>
+          <p class="description">Custom Django apps, backend APIs, authentication systems and scalable architecture in Python.</p>
         </div>
-      </div>
-      <div class="project-card">
-        <img src="images/project-data.jpg" alt="Data Science">
-        <div class="content">
-          <h3>Brain Tumor Segmentation (Research)</h3>
-          <p>Data preprocessing and CNN model training on BraTS 2021 dataset for tumor segmentation.</p>
-          <a href="https://github.com/Hamza-code-hub" target="_blank">View Research</a>
+
+        <div class="col-lg-4 col-md-6 icon-box">
+          <img src="images/icon-api.png" alt="API Icon" width="60">
+          <h4 class="title">API Integration & Creation</h4>
+          <p class="description">RESTful API design and third-party integration for automated data flows between platforms.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 icon-box">
+          <img src="images/icon-data.png" alt="Data Icon" width="60">
+          <h4 class="title">Data Science & Visualization</h4>
+          <p class="description">Data analysis, dashboards and predictive modeling for research and decision-making.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 icon-box">
+          <img src="images/icon-research.png" alt="Research Icon" width="60">
+          <h4 class="title">Research Papers & Methodologies</h4>
+          <p class="description">Professional academic writing and methodology design for PhD and Master research projects.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 icon-box">
+          <img src="images/icon-writing.png" alt="Assignment Icon" width="60">
+          <h4 class="title">Academic Assignments</h4>
+          <p class="description">Assistance with research-based assignments, proposals, and technical documentation.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="research">
-    <h2>Research & Publications</h2>
-    <div class="research-card">
-      <h3>Published Research Paper – Elsevier</h3>
-      <p>Title: <strong>“AI-Driven Data Processing Framework for Efficient Medical Imaging”</strong></p>
-      <p>Published in: <em>Elsevier Journal of Biomedical Informatics</em></p>
-      <a href="https://www.elsevier.com/en-xm" target="_blank">View Publication</a>
+  <!-- ======= Projects Section ======= -->
+  <section id="projects" class="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2>Featured Projects</h2>
+      </div>
+
+      <div class="row portfolio-container">
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <div class="portfolio-wrap">
+            <img src="images/project-django.jpg" class="img-fluid" alt="Django Project">
+            <div class="portfolio-info">
+              <h4>University Timetable System (Django)</h4>
+              <p>Automated scheduling and course allocation using Django and PostgreSQL.</p>
+              <div class="portfolio-links">
+                <a href="https://github.com/Hamza-code-hub" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <div class="portfolio-wrap">
+            <img src="images/project-api.jpg" class="img-fluid" alt="API Integration">
+            <div class="portfolio-info">
+              <h4>Renteon RMS Integration</h4>
+              <p>Integrated Renteon API with car rental system for booking and availability sync.</p>
+              <div class="portfolio-links">
+                <a href="https://github.com/Hamza-code-hub" target="_blank">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item">
+          <div class="portfolio-wrap">
+            <img src="images/project-data.jpg" class="img-fluid" alt="Data Science Project">
+            <div class="portfolio-info">
+              <h4>Brain Tumor Segmentation (Research)</h4>
+              <p>CNN model training on BraTS 2021 dataset for tumor segmentation research.</p>
+              <div class="portfolio-links">
+                <a href="https://github.com/Hamza-code-hub" target="_blank">View Research</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:maherhamza4616@gmail.com">maherhamza4616@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/hamzzaz" target="_blank">linkedin.com/in/hamzzaz</a></p>
-    <p>GitHub: <a href="https://github.com/Hamza-code-hub" target="_blank">github.com/Hamza-code-hub</a></p>
+  <!-- ======= Research Section ======= -->
+  <section id="research" class="resume">
+    <div class="container">
+      <div class="section-title">
+        <h2>Research & Publications</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="resume-item pb-0">
+            <h4>Published Research Paper – Elsevier</h4>
+            <p><em><strong>“AI-Driven Data Processing Framework for Efficient Medical Imaging”</strong></em></p>
+            <p>Published in Elsevier Journal of Biomedical Informatics</p>
+            <a href="https://www.elsevier.com/en-xm" target="_blank">View Publication</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2025 Muhammad Hamza. All rights reserved. | Designed for Professional Growth & Global Research Visibility.</p>
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="info">
+        <p><strong>Email:</strong> <a href="mailto:maherhamza4616@gmail.com">maherhamza4616@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hamzzaz" target="_blank">linkedin.com/in/hamzzaz</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/Hamza-code-hub" target="_blank">github.com/Hamza-code-hub</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Muhammad Hamza</h3>
+      <p>© 2025 Muhammad Hamza. All rights reserved | Designed for Professional Growth & Global Research Visibility.</p>
+    </div>
   </footer>
+
+  <!-- Vendor JS Files (from Ali Hassan layout) -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
