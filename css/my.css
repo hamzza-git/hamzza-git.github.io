@@ -34,7 +34,7 @@ html, body {
 
 /* Prevent images from stretching past their container */
 img {
-  max-width: 40%;
+  max-width: 45%;
   height: auto;
   display: block;
 }
