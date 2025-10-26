@@ -97,3 +97,9 @@ section, header, footer {
 .dark-mode .quote-content {
   color: #cfcfcf !important;
 }
+.col-hd-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
