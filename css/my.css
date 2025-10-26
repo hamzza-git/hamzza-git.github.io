@@ -108,7 +108,7 @@ section, header, footer {
 }
 
 @media (min-width: 768px) {
-    .col-md-6 {
+    .col-hd-6 {
         -webkit-box-flex: 0;
         flex: 0 0 50%;
     }
