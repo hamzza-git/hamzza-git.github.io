@@ -129,11 +129,11 @@ section, header, footer {
         flex: 0 0 50%;
     }
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .project-card .row {
     flex-direction: column;
   }
-}
+} */
 @media (min-width: 768px) {
     .col-dd-4 {
         -webkit-box-flex: 0;
