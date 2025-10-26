@@ -32,12 +32,6 @@ html, body {
   box-sizing: border-box;
 }
 
-/* Prevent images from stretching past their container */
-img {
-  max-width: 45%;
-  height: auto;
-  display: block;
-}
 
 /* Optional: ensure sections don't use 100vw (which includes scrollbar) */
 section, header, footer {
