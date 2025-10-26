@@ -104,6 +104,16 @@ section, header, footer {
     padding-right: 15px;
     padding-left: 15px;
 }
+.col-dd-4 {
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-gg-3 {
+    width: 50%;
+}
+
 .img-full {
   max-width: 100%;
 }
