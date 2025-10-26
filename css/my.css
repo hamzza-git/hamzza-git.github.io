@@ -100,7 +100,9 @@ section, header, footer {
 .img-full {
   max-width: 100%;
 }
-
+.img-small {
+  max-width: 45%;
+}
 @media (min-width: 768px) {
     .col-hd-6 {
         -webkit-box-flex: 0;
