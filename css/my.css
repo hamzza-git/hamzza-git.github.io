@@ -97,6 +97,13 @@ section, header, footer {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+.col-dd-6 {
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .img-full {
   max-width: 100%;
 }
