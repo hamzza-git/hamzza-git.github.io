@@ -141,3 +141,32 @@ section, header, footer {
         max-width: 33.3333333333%;
     }
 }
+
+/* Work Platforms Section */
+.platform-card {
+  display: block;
+  background: var(--theme-bg-light, #fff);
+  border-radius: 12px;
+  padding: 20px 10px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.platform-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.platform-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.platform-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
