@@ -109,3 +109,8 @@ section, header, footer {
         flex: 0 0 50%;
     }
 }
+@media (max-width: 767px) {
+  .project-card .row {
+    flex-direction: column;
+  }
+}
