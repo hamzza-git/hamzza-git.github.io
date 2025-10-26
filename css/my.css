@@ -103,3 +103,6 @@ section, header, footer {
     padding-right: 15px;
     padding-left: 15px;
 }
+.img-full {
+  max-width: 45%;
+}
