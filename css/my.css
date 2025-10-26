@@ -112,6 +112,9 @@ section, header, footer {
 }
 .col-gg-3 {
     width: 50%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .img-full {
@@ -130,4 +133,11 @@ section, header, footer {
   .project-card .row {
     flex-direction: column;
   }
+}
+@media (min-width: 768px) {
+    .col-dd-4 {
+        -webkit-box-flex: 0;
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+    }
 }
