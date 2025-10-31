@@ -30,6 +30,7 @@ html, body {
 .main-wrapper, .container, .row {
   max-width: 100%;
   box-sizing: border-box;
+  margin-left: 0.01px;
 }
 
 
