@@ -61,9 +61,8 @@
 <body>
   <header class="header text-center">
     <div class="force-overflow">
-     <h1 class="blog-name pt-lg-4 mb-0">
-  <a href="index.html"><span id="typed-text"></span></a>
-</h1>
+		 <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Muhammad Hamza</a></h1>
+    
 
 
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -127,8 +126,10 @@
   <div class="container">
     <div class="profile-teaser media flex-column flex-lg-row">
       <div class="media-body" data-aos="fade-right">
-        <h2 class="name font-weight-bold mb-1">Muhammad Hamza</h2>
-        <div class="tagline mb-3">Python & Django Developer | Research Author (Elsevier)</div>
+         <h2 class="blog-name pt-lg-4 mb-0">
+  <a href="index.html"><span id="typed-text1"></span></a>
+</h2>
+        <div class="tagline mb-3"><span id="typed-text2"></span></div>
        <div class="bio mb-4">
               I’m Muhammad Hamza a Python developer specializing in AI, deep learning, and web development using Django.  
               My experience includes medical image analysis, automation, and 3D model processing.  
@@ -691,10 +692,24 @@
 </script>
 	<script>
   document.addEventListener("DOMContentLoaded", function() {
-    var typed = new Typed("#typed-text", {
-      strings: ["Muhammad Hamza", "Python Developer", "AI Engineer", "Research Author"],
-      typeSpeed: 80,      // speed of typing
-      backSpeed: 40,      // speed of backspacing
+    var typed = new Typed("#typed-text1", {
+      strings: ["Muhammad Hamza ", "Python Developer", "AI Engineer", "Research Author"],
+      typeSpeed: 60,      // speed of typing
+      backSpeed: 30,      // speed of backspacing
+      backDelay: 1000,    // pause before deleting
+      startDelay: 300,    // small delay before start
+      loop: true,         // repeat infinitely
+      showCursor: true,   // blinking cursor
+      cursorChar: "|"
+    });
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var typed = new Typed("#typed-text2", {
+      strings: [ "Python & Django Developer", "AI & Machine Learning Engineer", "Research Author (Elsevier Q1)"],
+      typeSpeed: 60,      // speed of typing
+      backSpeed: 30,      // speed of backspacing
       backDelay: 1000,    // pause before deleting
       startDelay: 300,    // small delay before start
       loop: true,         // repeat infinitely
@@ -704,9 +719,9 @@
   });
 </script>
 
-
 </body>
 </html>
+
 
 
 
