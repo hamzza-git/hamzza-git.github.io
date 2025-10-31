@@ -23,6 +23,8 @@
 <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
+<!-- Typed.js for typing animation -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
   <!-- FontAwesome -->
   <script defer src="./js/all.js"></script>
@@ -59,7 +61,10 @@
 <body>
   <header class="header text-center">
     <div class="force-overflow">
-      <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Muhammad Hamza</a></h1>
+     <h1 class="blog-name pt-lg-4 mb-0">
+  <a href="index.html"><span id="typed-text"></span></a>
+</h1>
+
 
       <nav class="navbar navbar-expand-lg navbar-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
@@ -684,9 +689,25 @@
     easing: 'ease-in-out'
   });
 </script>
+	<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var typed = new Typed("#typed-text", {
+      strings: ["Muhammad Hamza", "Python Developer", "AI Engineer", "Research Author"],
+      typeSpeed: 80,      // speed of typing
+      backSpeed: 40,      // speed of backspacing
+      backDelay: 1000,    // pause before deleting
+      startDelay: 300,    // small delay before start
+      loop: true,         // repeat infinitely
+      showCursor: true,   // blinking cursor
+      cursorChar: "|"
+    });
+  });
+</script>
+
 
 </body>
 </html>
+
 
 
 
