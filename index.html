@@ -19,6 +19,10 @@
   <link rel="stylesheet" href="./css/owl.css">
   <link rel="stylesheet" href="./css/my.css">
   <link id="theme-style" rel="stylesheet" href="./css/theme.css">
+	<!-- AOS Animation Library -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
 
   <!-- FontAwesome -->
   <script defer src="./js/all.js"></script>
@@ -114,13 +118,13 @@
   <div class="main-wrapper">
  
     <!-- About Section -->
-    <section class="about-me-section p-3 p-lg-5 theme-bg-light">
-      <div class="container">
-        <div class="profile-teaser media flex-column flex-lg-row">
-          <div class="media-body">
-            <h2 class="name font-weight-bold mb-1">Muhammad Hamza</h2>
-            <div class="tagline mb-3">Python & Django Developer | Research Author (Elsevier)</div>
-            <div class="bio mb-4">
+    <section class="about-me-section p-3 p-lg-5 theme-bg-light" data-aos="fade-up">
+  <div class="container">
+    <div class="profile-teaser media flex-column flex-lg-row">
+      <div class="media-body" data-aos="fade-right">
+        <h2 class="name font-weight-bold mb-1">Muhammad Hamza</h2>
+        <div class="tagline mb-3">Python & Django Developer | Research Author (Elsevier)</div>
+       <div class="bio mb-4">
               I’m Muhammad Hamza a Python developer specializing in AI, deep learning, and web development using Django.  
               My experience includes medical image analysis, automation, and 3D model processing.  
               I’m passionate about creating efficient solutions that merge innovation with real-world applications.
@@ -132,11 +136,12 @@
               <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio</a>
               <a class="btn btn-secondary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i>View Resume</a>
             </div>
-          </div>
-          <img class="profile-image mb-3 mb-lg-0 ml-lg-5" src="images/Muhammad_Hamza_from_pattoki2.jpg" alt="Muhammad Hamza" style="width: 230px; height: auto; border-radius: 8px;">
-        </div>
       </div>
-    </section>
+      <img class="profile-image mb-3 mb-lg-0 ml-lg-5" src="images/Muhammad_Hamza_from_pattoki2.jpg" alt="Muhammad Hamza" data-aos="zoom-in">
+    </div>
+  </div>
+</section>
+
 
         <!-- ✅ Photo Gallery Section -->
     <section id="gallery" class="overview-section p-3 p-lg-5">
@@ -672,8 +677,17 @@
   <script src="./js/testimo.js"></script>
   <script src="./js/cookie.js"></script>
   <script src="./js/dark.js"></script>
+	<script>
+  AOS.init({
+    duration: 1000,   // Animation duration (in ms)
+    once: true,       // Animate only once per scroll
+    easing: 'ease-in-out'
+  });
+</script>
+
 </body>
 </html>
+
 
 
 
